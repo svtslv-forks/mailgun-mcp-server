@@ -1,4 +1,8 @@
 {
+    "name": "mailgun-mcp-server",
+    "bin": {
+        "mailgun-mcp-server": "src/mailgun-mcp.js"
+    },
     "type": "module",
     "scripts": {
         "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
